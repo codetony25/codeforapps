@@ -1,0 +1,54 @@
+@startuml
+
+skinparam backgroundColor lightgray
+
+actor User
+boundary AuthView
+control AuthViewState
+control AuthAction
+
+skinparam sequence {
+	ArrowColor DeepSkyBlue
+	LifeLineBackgroundColor #A9DCDF
+}
+
+title __API Design Pattern__ communication example\non several lines
+
+User -> AuthView: **User clicks on the Login Button!**
+
+AuthView -> AuthViewState: onLoginClick()
+note over AuthView: onClick event triggers\non our onLoginClick \non inside of our\non AuthViewState
+
+AuthViewState -> AuthAction: onAuthAction()
+activate AuthViewState
+
+activate AuthAction #FFBBBB
+AuthAction --> API: API Request
+|||
+
+group API Response [onAuthSuccess]
+
+    activate API #DarkSalmon
+    API --> AuthAction: API Response
+    destroy API
+
+    AuthAction -> AuthViewState
+    deactivate AuthAction
+
+    deactivate AuthViewState
+    AuthViewState -> AuthView: onAuthResponse()
+
+    User <- AuthView: **User is taken to the Dashboard!**
+
+else onAuthError
+
+   API --> AuthAction: API Response
+   destroy API
+   AuthAction --> AuthViewState: onAuthAction()
+   AuthViewState --> AuthView: onAuthResponse()
+
+   User <- AuthView: **User has retry login!**
+
+end
+
+@enduml

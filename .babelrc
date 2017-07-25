@@ -1,0 +1,37 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-decorators-legacy",
+    ["transform-es2015-modules-commonjs", {
+      "loose": true
+    }],
+    ["transform-es2015-destructuring", {
+      "loose": true
+    }],
+    "transform-react-jsx-source",
+    "transform-es2015-function-name",
+    "transform-es2015-parameters",
+    "system-import-transformer",
+    "external-helpers",
+    "transform-runtime"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-react-remove-prop-types",
+        "transform-react-constant-elements",
+        "transform-react-inline-elements"
+      ]
+    },
+    "test": {
+      "plugins": [
+        "rewire"
+      ]
+    }
+  }
+}

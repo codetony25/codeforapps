@@ -1,0 +1,21 @@
+####
+# Travis test for EverLib UI server
+# Note: Setting language: node_js makes some other assumptions
+#  with travis-ci. These are generally not clean vms, but have other
+#  services installed that may not be installed in a normal production
+#  environment. When the time comes, make travis environments look more
+#  like production.
+####
+
+language: node_js
+
+os:
+  - linux
+  - osx
+
+node_js:
+  - '6.1'
+
+script:
+  - npm run lint
+  - npm run test

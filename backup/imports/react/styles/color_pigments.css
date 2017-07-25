@@ -1,0 +1,26 @@
+/* Primary Colors */
+h1 {
+    white: #ffffff; /* keepin the white! */
+    catskill: #fafbfb; /* for very light background */
+    ghost: #f1f5f5; /* for light background */
+    egg: #1b5063; /* for background */
+    gumbo: #6a8d99; /* for text on background */
+    tuna: #647276; /* for text */
+    shaft: #12282f; /* for footer or header background possibly */
+    athens: #e5eeed; /* for background light grayish */
+    torch: #be465c; /* for buttons and such */
+    coral: #fa3e3e; /* more solid red for darker bg */
+    malachite: #0bc477; /* we need greens. */
+    newyork: #f1788d; /* anything suddle red */
+    stone: #1a3741; /* borderssss */
+    lightghost: #c7cad1; /* input borders */
+
+    /* new */
+    fuego: #afe30b; /* for live stuff or online */
+    pampas: #fbfbf9; /* for medium light background */
+    diane: #214753; /* links or background */
+    regent: #a2d6e5; /* we need blues somewhere. */
+    cerulean: #00aced; /* buttons or icons on light background */
+    radiance: #0098ed; /* buttons or icons on darker background */
+    carrot : #f7986c;
+}

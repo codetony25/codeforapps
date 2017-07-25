@@ -1,0 +1,17 @@
+export const bookDescriptionLenMin = 20;
+export const bookDescriptionLenMax = 500;
+export const bookTitleLenMin = 2;
+export const bookTitleLenMax = 50;
+export const emailLenMin = 3;
+export const emailLenMax = 50;
+export const emailPatternMatch = /.+@.+\..+/;
+export const emailPatternReplace = / /g;
+export const messageLenMin = 10;
+export const messageLenMax = 50;
+export const nameLenMin = 2;
+export const nameLenMax = 50;
+export const passwordLenMin = 6;
+export const passwordLenMax = 50;
+export const usernameLenMin = 2;
+export const usernameLenMax = 50;
+export const usernamePatternReplace = /[^a-z0-9_]/gi;

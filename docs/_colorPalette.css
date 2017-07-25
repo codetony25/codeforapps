@@ -1,0 +1,43 @@
+.backgrounds {
+    /* A triadic color scheme uses colors that
+    are evenly spaced around the color wheel.
+    Triadic color harmonies tend to be quite
+    vibrant, even if you use pale or unsaturated
+    versions of your hues. To use a triadic harmony
+    successfully, the colors should be carefully
+    balanced - let one color dominate and use the
+    two others for accent. */
+
+    /* http://paletton.com/#uid=73p0u0kiCFn8GVde7NVmtwSqXtg */
+    dominant-color: hsl(193, 45%, 54%);
+    accent-first: hsl(42, 82%, 53%);
+    accent-second: hsl(29, 100%, 71%);
+    accent-third: hsl(229, 48%, 58%);
+}
+
+.shades {
+    dominantPrimary: hsl(193, 45%, 54%);
+    dominantDarkest: hsla(193, 45%, 12%, 1);
+    dominantDarker: hsl(193, 45%, 21%);
+    dominantDark: hsl(193, 45%, 29%);
+    dominantDarkTransparent: hsla(193, 45%, 54%, 0.85);
+    dominantMediumTransparent: hsla(193, 45%, 54%, 0.55);
+    dominantLightestTransparent: hsla(193, 45%, 54%, 0.2);
+    dominantTransparent: hsla(193, 45%, 12%, 0);
+    dominantMedium: hsl(193, 45%, 35%);
+    dominantMediumLight: hsl(193, 45%, 44%);
+    dominantMediumLighter: hsl(193, 45%, 57%);
+    dominantLight: hsl(193, 45%, 81%);
+    dominantLighter: hsl(193, 45%, 88%);
+    dominantLightest: hsl(193, 45%, 94%);
+
+    accentFirstPrimary: hsl(29, 100%, 71%);
+    accentFirstDark: hsl(29, 100%, 53%);
+    accentFirstMedium: hsl(29, 100%, 65%);
+    accentFirstLight: hsl(29, 100%, 86%);
+    accentSecondPrimary: hsl(42, 82%, 53%);
+    accentThirdPrimary: hsl(229, 48%, 58%);
+    accentThirdDark: hsl(229, 48%, 48%);
+    accentThirdMedium: hsl(229, 48%, 70%);
+    accentThirdLight: hsl(229, 48%, 83%);
+}
