@@ -132,7 +132,7 @@ app.get('*', async (req, res, next) => {
 
 // Launch the server with the specified port
 try {
-  app.listen(port, "35.230.32.5", () => {
+  app.listen(port, () => {
     console.log(`The server is running at http://localhost:${port}/`);
   });
 } catch(error) {
