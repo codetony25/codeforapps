@@ -2,7 +2,8 @@
   "private": true,
   "engines": {
     "node": ">=6 <7",
-    "npm": ">=3.8 <4"
+    "npm": ">=3.8 <4",
+    "yarn": "=1.5.1"
   },
   "dependencies": {
     "babel-polyfill": "6.13.0",
