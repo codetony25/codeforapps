@@ -13,7 +13,7 @@ import {
 } from '../../../core/utils/form_handling/validations/client';
 
 import SubscriberFormState from './SubscriberForm.state';
-import subscriberFormStyle from './SubscriberForm.style';
+import subscriberFormStyle from './subscriberForm.style';
 
 @observer
 class SubscriberForm extends React.Component {
