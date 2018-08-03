@@ -2,25 +2,23 @@
   "private": true,
   "engines": {
     "node": ">=6 <7",
-    "npm": ">=3.8 <4",
-    "yarn": "=1.5.1"
+    "npm": ">=3.8 <4"
   },
   "dependencies": {
     "babel-polyfill": "6.13.0",
     "babel-runtime": "6.11.6",
-    "body-parser": "1.15.2",
+    "body-parser": "^1.18.3",
     "color": "0.11.3",
     "cookie-parser": "1.4.3",
     "draft-js": "0.8.0",
-    "eslint": "3.6.1",
-    "express": "4.14.0",
+    "express": "^4.16.3",
     "fastclick": "1.0.6",
     "fbjs": "0.8.5",
     "highlight.js": "9.7.0",
     "history": "4.2.0",
     "immutable": "3.8.1",
     "jassy": "0.2.7",
-    "lodash": "4.16.2",
+    "lodash": "^4.17.10",
     "mobx": "2.5.2",
     "mobx-react": "3.5.5",
     "mobx-react-devtools": "4.2.6",
@@ -38,7 +36,7 @@
     "tinycolor2": "1.4.1",
     "underscore.string": "3.3.4",
     "whatwg-fetch": "1.0.0",
-    "why-did-you-update": "0.0.8"
+    "why-did-you-update": "^0.1.1"
   },
   "scripts": {
     "start": "node server.js"
