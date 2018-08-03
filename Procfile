@@ -1,1 +1,1 @@
-web: npm run build:prod && node build/public/assets
+web: npm run build:prod && node build/server.js
