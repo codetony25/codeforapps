@@ -1,4 +1,4 @@
-export const port = process.env.PORT || $PORT || 5000;
+export const port = process.env.PORT || 5000;
 export const host = process.env.WEBSITE_HOSTNAME || `localhost:${port}`;
 
 export const analytics = {
