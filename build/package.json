@@ -21,6 +21,7 @@
     "mobx-utils": "1.0.1",
     "moment": "2.19.3",
     "node-fetch": "1.6.3",
+    "punch": "^0.5.46",
     "react": "15.3.2",
     "react-dom": "15.3.2",
     "react-google-recaptcha": "0.5.4",
