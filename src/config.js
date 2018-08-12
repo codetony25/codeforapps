@@ -1,5 +1,5 @@
-export const port = process.env.PORT || 5000;
-export const host = process.env.WEBSITE_HOSTNAME || `localhost:${port}`;
+export const port = process.env.PORT || 8000;
+export const host = process.env.WEBSITE_HOSTNAME || `codeforappscom.herokuapp.com:${port}`;
 
 export const analytics = {
 
