@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import { ServerRouter, createServerRenderContext } from 'react-router';
 
-import { port } from './config';
+import { port, host } from './config';
 import { HtmlContainer, RootContainer } from './components/containers';
 
 /**
@@ -132,8 +132,8 @@ app.get('*', async (req, res, next) => {
 
 // Launch the server with the specified port
 try {
-  app.listen(port, 'localhost', () => {
-    console.log(`The server is running at http://localhost:${port}/`);
+  app.listen(port, '0.0.0.0', () => {
+    console.log(`The server is running at http://localhost:${port}/ or ${host}`);
   });
 } catch(error) {
   console.log(`Error while listening to ${port}`, error);
