@@ -99,10 +99,8 @@
     "clean": "./node_modules/.bin/babel-node tools/run clean",
     "copy": "./node_modules/.bin/babel-node tools/run copy",
     "compile": "./node_modules/.bin/babel-node tools/run compile",
-    "build": "./node_modules/.bin/babel-node tools/run build",
-    "build:prod": "npm run build -- --release",
+    "build": "npm run build -- --release",
     "render": "./node_modules/.bin/babel-node tools/run render",
-    "start": "./node_modules/.bin/babel-node build/server.js",
-    "start:prod": "node build/server.js"
+    "start": "./node_modules/.bin/babel-node build/server.js"
   }
 }
