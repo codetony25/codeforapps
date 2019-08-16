@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "6.13.0",
+    "babel-runtime": "6.11.6",
+    "body-parser": "^1.18.3",
+    "color": "0.11.3",
+    "cookie-parser": "1.4.3",
+    "draft-js": "0.8.0",
+    "express": "^4.16.3",
+    "fastclick": "1.0.6",
+    "fbjs": "0.8.5",
+    "highlight.js": "9.7.0",
+    "history": "4.2.0",
+    "immutable": "3.8.1",
+    "jassy": "0.2.7",
+    "lodash": "^4.17.10",
+    "mobx": "2.5.2",
+    "mobx-react": "3.5.5",
+    "mobx-react-devtools": "4.2.6",
+    "mobx-utils": "1.0.1",
+    "moment": "2.19.3",
+    "node-fetch": "1.6.3",
+    "punch": "^0.5.46",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "react-google-recaptcha": "0.5.4",
+    "react-hot-loader": "3.0.0-beta.6",
+    "react-router": "4.0.0-alpha.5",
+    "react-scroll": "1.4.2",
+    "react-sortable-hoc": "0.0.9",
+    "source-map-support": "0.4.2",
+    "tinycolor2": "1.4.1",
+    "underscore.string": "3.3.4",
+    "whatwg-fetch": "1.0.0",
+    "why-did-you-update": "^0.1.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
