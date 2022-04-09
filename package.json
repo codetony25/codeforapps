@@ -19,7 +19,7 @@
     "mobx-react": "3.5.5",
     "mobx-react-devtools": "4.2.6",
     "mobx-utils": "1.0.1",
-    "moment": "2.19.3",
+    "moment": "2.29.2",
     "node-fetch": "1.6.3",
     "punch": "^0.5.46",
     "react": "15.3.2",
